@@ -1,0 +1,35 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    color: #00FF00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+pre {
+    font-size: 1.5vw;
+    white-space: pre-wrap;
+    text-align: center;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
